@@ -1,6 +1,7 @@
 require('jquery' );
 require('datatables.net' );
 require('datatables.net-bs' );
+require('./js/mychart.js');
 import 'bootstrap';
 import 'bootstrap-grid';
 // require(  'bootstrap');
@@ -51,3 +52,6 @@ let $elem = $(".myheader2");
 $elem.is('h2') && console.log("Efectivamente es un h2");
 CargarTabla();
 CargarCombo();
+
+
+ 
