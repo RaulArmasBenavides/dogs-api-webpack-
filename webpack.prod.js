@@ -1,7 +1,12 @@
 const HtmlWebPackPlugin       = require('html-webpack-plugin'); 
 const MiniCssExtractPlugin    = require('mini-css-extract-plugin');
+// const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const CopyPlugin = require('copy-webpack-plugin');
+// const MinifyPlugin            = require('babel-minify-webpack-plugin');
 const webpack = require('webpack'); 
+//const compiler = require('webpack');
+
+
 module.exports = {
     mode: 'development',
     optimization: {
@@ -76,7 +81,8 @@ module.exports = {
         new webpack.ProvidePlugin({
             $: require.resolve('jquery'),
             jQuery: require.resolve('jquery')
-        })
+        }),
+        new MinifyPlugin(),
     ]
 
 }
