@@ -5,7 +5,7 @@ const CopyPlugin = require('copy-webpack-plugin');
 // const MinifyPlugin            = require('babel-minify-webpack-plugin');
 const webpack = require('webpack'); 
 //const compiler = require('webpack');
-
+const CompressionPlugin = require('compression-webpack-plugin');
 
 module.exports = {
     mode: 'development',
@@ -82,7 +82,7 @@ module.exports = {
             $: require.resolve('jquery'),
             jQuery: require.resolve('jquery')
         }),
-        new MinifyPlugin(),
+        new CompressionPlugin() // Compresión de archivos para mejorar tiempos de carga
     ]
 
 }

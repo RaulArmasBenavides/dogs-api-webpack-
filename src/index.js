@@ -1,12 +1,12 @@
-require('jquery' );
-require('datatables.net' );
-require('datatables.net-bs' );
-require('./js/mychart.js');
-import 'bootstrap';
-import 'bootstrap-grid';
+// require('jquery' );
+// require('datatables.net' );
+// require('datatables.net-bs' );
+// require('./js/mychart.js');
+ import 'bootstrap';
+ import 'bootstrap-grid';
 // require(  'bootstrap');
-// import './css/bootstrap.css';
-// import './css/bootstrap-grid.css';
+import './css/bootstrap.css';
+import './css/bootstrap-grid.css';
 import './css/Site.css';
 
 function CargarTabla(){
@@ -48,10 +48,10 @@ function CargarCombo()
   });
 }
 
-let $elem = $(".myheader2");
-$elem.is('h2') && console.log("Efectivamente es un h2");
-CargarTabla();
-CargarCombo();
+// let $elem = $(".myheader2");
+// $elem.is('h2') && console.log("Efectivamente es un h2");
+// CargarTabla();
+// CargarCombo();
 
 
  
