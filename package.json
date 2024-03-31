@@ -1,7 +1,7 @@
 {
-  "name": "project",
+  "name": "appWebpackCompleteDemo",
   "version": "1.0.0",
-  "description": "proyecto web blog2",
+  "description": "Proyecto webpack utilizando bootstrap 5, jquery y otras librerías",
   "main": "index.js",
   "private": true,
   "scripts": {
@@ -16,7 +16,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/RaulArmasBenavides/blog-webpack22.git"
+    "url": "https://github.com/RaulArmasBenavides/appWebpackCompleteDemo.git"
   },
   "devDependencies": {
     "compression-webpack-plugin": "^11.1.0",
